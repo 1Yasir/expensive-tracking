@@ -1,7 +1,4 @@
-// BudgetForm.js
-"use client";
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './BudgetInput.module.css';
 
 const BudgetForm = ({ onSubmit, formData, editIndex }) => {

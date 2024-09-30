@@ -1,7 +1,5 @@
-// BudgetInput.js
 "use client";
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './BudgetInput.module.css';
 import BudgetForm from './BudgetForm';
 import BudgetList from './BudgetList';
@@ -47,7 +45,7 @@ const BudgetInput = () => {
   const totalBudget = budgetList.reduce((total, entry) => total + Number(entry.budget), 0);
 
   return (
-    <div className={`container ${styles.budgetInput}`}>
+    <div className={`container budgetInput`}>
       <h2 className="text-center mb-4">Budget</h2>
       <BudgetForm onSubmit={handleAddOrUpdateBudget} formData={formData} editIndex={editIndex} />
       {

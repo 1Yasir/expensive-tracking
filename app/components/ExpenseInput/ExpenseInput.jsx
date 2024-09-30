@@ -1,8 +1,6 @@
 // ExpenseInput.js
 "use client";
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './ExpenseInput.module.css';
 import ExpenseForm from './ExpenseForm';
 import ExpenseList from './ExpenseList';
 
@@ -39,7 +37,7 @@ const ExpenseInput = () => {
   };
 
   return (
-    <div className={`container ${styles.expenseInput}`}>
+    <div className={`container`}>
       <h2 className="text-center mb-4">{isEditing ? 'Edit Expense' : 'Add Expense'}</h2>
       <ExpenseForm onSubmit={handleAddExpense} initialData={isEditing ? expenses[editIndex] : null} />
       {

@@ -1,8 +1,4 @@
-// ExpenseForm.js
-"use client";
 import React, { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './ExpenseInput.module.css';
 
 const ExpenseForm = ({ onSubmit, initialData }) => {
   const [expenseData, setExpenseData] = useState({
