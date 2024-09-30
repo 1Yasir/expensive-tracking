@@ -1,8 +1,11 @@
+import Login from "./login/page";
+import SignUp from "./components/singup/signup";
 
 function App() {
   return (
     <>
-    <h1>Hello World!</h1>
+      {/* <Login/> */}
+      <SignUp />
     </>
   )
 }

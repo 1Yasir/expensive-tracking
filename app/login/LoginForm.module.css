@@ -1,0 +1,95 @@
+/* styles/LoginForm.module.css */
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #007bff;
+  }
+  
+  .loginBox {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .inputGroup {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .inputField:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .forgotPassword {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+  }
+  
+  .loginButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .loginButton:hover {
+    background-color: #202020;
+  }
+  
+  .footerText {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .footerText a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footerText a:hover {
+    text-decoration: underline;
+  }
+  

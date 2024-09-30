@@ -4,7 +4,7 @@ function Header() {
     const menuItems = ["Budget", "Expense", "Tracker"];
 
     return (
-        <header className='bg-dark'>
+        <header className='bg-dark shadow-sm'>
             <div className="container">
                 <div className="d-flex justify-content-between align-items-center">
                     <Link href="/" className='text-white text-decoration-none'>
